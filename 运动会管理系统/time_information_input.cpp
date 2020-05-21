@@ -15,7 +15,7 @@ void time_information_input() {
 	int n = 0;
 	ifstream infile;
 
-	infile.open("/times_information.txt", ios::in);//为读取模式打开文件
+	infile.open("time_information.txt", ios::in);//为读取模式打开文件
 	if (!infile.is_open()) {
 		cout << "Error:opening fail" << endl;
 		exit(2);//打开失败则推出程序

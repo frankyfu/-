@@ -26,7 +26,7 @@ void athletes_information_input() {
 	infile.open("athletes_information.txt", ios::in);//为读取模式打开文件
 	if (!infile.is_open()) {
 		cout << "Error:opening fail" << endl;
-		exit(1);//若打开失败直接退出程序
+		exit(1);//若打开失败直接退出程序,并返回1;
 	}
 	while (!infile.eof() && n < 300) {
 		infile >> athlete[n].name >> athlete[n].gender >> athlete[n].studentId >> athlete[n].sports_1 >> athlete[n].sports_2 >> athlete[n].sports_3 >> athlete[n].part;

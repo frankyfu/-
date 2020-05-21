@@ -21,10 +21,10 @@ void sports_information_input() {
 	int n = 0;
 	ifstream infile;
 
-	infile.open("/sports_information.txt", ios::in);//为读取模式打开文件
+	infile.open("sports_information.txt", ios::in);//为读取模式打开文件
 	if (!infile.is_open()) {
 		cout << "Error:opening fail" << endl;
-		exit(1);//打开失败退出程序
+		exit(3);//打开失败退出程序
 	}
 	while (!infile.eof() && n < 50) {
 		infile >> sport[n].ID >> sport[n].name >> sport[n].gender >> sport[n].trackOrField >> sport[n].preliminaryOrFinal >>sport[n].site ;
