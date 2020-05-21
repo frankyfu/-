@@ -2,16 +2,19 @@
 #include<fstream>
 #include<iostream>
 #include<string>
+#include"information_input.h"
 using namespace std;
 
-struct sports {
-	string ID;
-	string name;
-	bool gender;//true means man,false means female
-	bool trackOrField;//true means track ,false meansField
-	bool preliminaryOrFinal;//true means preliminary ,false means final
-	string site;//该项目场地
-}sport[50];//定义运动会运动项目结构体
+//struct sports {
+//	string ID;
+//	string name;
+//	bool gender;//true means man,false means female
+//	bool trackOrField;//true means track ,false meansField
+//	bool preliminaryOrFinal;//true means preliminary ,false means final
+//	string site;//该项目场地
+//}sport[50];//定义运动会运动项目结构体
+
+struct sports sport[50];
 
 void sports_information_input() {
 

@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\GitHub\-\atheles_information_input.cpp" />
+    <ClCompile Include="athletes_information_input.cpp" />
     <ClCompile Include="sports_information_input.cpp" />
     <ClCompile Include="sport_meet_output.cpp" />
     <ClCompile Include="time_information_input.cpp" />
