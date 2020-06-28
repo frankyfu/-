@@ -8,14 +8,14 @@ extern void time_information_input();//声明事件信息引入函数
 extern void sports_information_input();//声明项目信息引入函数
 
 struct times {
-	int number;
+	int ID;
 	string range;
 }/*time[20]*/;//声明时间信息结构体
 
 
 
 struct sports {
-	string ID;
+	int ID;
 	string name;
 	bool gender;//true means man,false means female
 	bool trackOrField;//true means track ,false meansField

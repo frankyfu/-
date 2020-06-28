@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="athletes_information_input.cpp" />
+    <ClCompile Include="result_input.cpp" />
     <ClCompile Include="sports_information_input.cpp" />
     <ClCompile Include="sport_meet_output.cpp" />
     <ClCompile Include="time_information_input.cpp" />
@@ -159,11 +160,15 @@
   <ItemGroup>
     <Text Include="sports_information.txt" />
     <Text Include="athletes_information.txt" />
+    <Text Include="sports_meet_information.txt" />
+    <Text Include="sport_result.txt" />
     <Text Include="time_information.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
     <ClInclude Include="information_input.h" />
+    <ClInclude Include="sport_meet_information.h" />
+    <ClInclude Include="sport_result_information.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

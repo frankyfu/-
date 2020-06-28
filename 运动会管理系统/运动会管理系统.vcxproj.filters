@@ -27,6 +27,9 @@
     <ClCompile Include="athletes_information_input.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="result_input.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="sports_information.txt">
@@ -38,12 +41,24 @@
     <Text Include="athletes_information.txt">
       <Filter>资源文件</Filter>
     </Text>
+    <Text Include="sports_meet_information.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="sport_result.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="information_input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sport_meet_information.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sport_result_information.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

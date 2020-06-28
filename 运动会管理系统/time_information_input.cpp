@@ -21,7 +21,7 @@ void time_information_input() {
 		exit(2);//打开失败则推出程序
 	}
 	while (!infile.eof() && n < 20) {
-		infile >> time[n].number >> time[n].range;
+		infile >> time[n].ID >> time[n].range;
 		n++;
 	}
 	infile.close();//关闭文件
