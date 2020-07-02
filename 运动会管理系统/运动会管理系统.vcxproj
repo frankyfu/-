@@ -88,7 +88,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -156,17 +156,21 @@
     <ClCompile Include="sports_information_input.cpp" />
     <ClCompile Include="sport_meet_output.cpp" />
     <ClCompile Include="time_information_input.cpp" />
+    <ClCompile Include="sport_result_sorting.cpp" />
+    <ClCompile Include="test_main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="sports_information.txt" />
     <Text Include="athletes_information.txt" />
     <Text Include="sports_meet_information.txt" />
     <Text Include="sport_result.txt" />
+    <Text Include="parts_information.txt" />
     <Text Include="time_information.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
     <ClInclude Include="information_input.h" />
+    <ClInclude Include="result_output_interface.h" />
     <ClInclude Include="sport_meet_information.h" />
     <ClInclude Include="sport_result_information.h" />
   </ItemGroup>

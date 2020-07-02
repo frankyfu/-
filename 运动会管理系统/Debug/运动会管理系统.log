@@ -1,3 +1,7 @@
-﻿  sport_meet_output.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
-C:\Users\frank\Source\Repos\运动会管理系统\Debug\运动会管理系统.exe : fatal error LNK1120: 1 个无法解析的外部命令
+﻿  sport_result_sorting.cpp
+C:\Users\frank\Source\Repos\运动会管理系统\运动会管理系统\sport_result_sorting.cpp(82,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+C:\Users\frank\Source\Repos\运动会管理系统\运动会管理系统\sport_result_sorting.cpp(85,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+C:\Users\frank\Source\Repos\运动会管理系统\运动会管理系统\sport_result_sorting.cpp(492): warning C4700: 使用了未初始化的局部变量“i”
+  运动会管理系统.vcxproj -> C:\Users\frank\Source\Repos\运动会管理系统\Debug\运动会管理系统.exe

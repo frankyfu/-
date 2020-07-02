@@ -5,7 +5,7 @@
 
 using namespace std;
 
-struct sport_result result[50];
+struct athletes_result_information athlete_result;
 
 void sport_result_input() {
 
@@ -13,14 +13,19 @@ void sport_result_input() {
 	ifstream infile;
 
 	infile.open("sport_result.txt", ios::in);
-	if (!infile.is_open) {
+
+	if (!infile.is_open()) {
 		cout << "Error:opening fail" << endl;
 		exit(4);//打开失败退出程序
 	}
-	while (!infile.eof&&n<50)
-	{
-		infile;
-		n++;
+
+	struct athletes_result_information* p = NULL;
+	p = &athlete_result;
+	while (!infile.eof()){
+		infile >> p->sportID >> p->name >> p->studentID >> p->result;
+		p->next = new athletes_result_information();
+		p->next->result = 0;
+		p = p->next;
 	}
 
 }
